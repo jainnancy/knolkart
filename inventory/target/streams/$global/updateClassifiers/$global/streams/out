@@ -354,7 +354,7 @@
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.4!scala-reflect.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.14.5!jline.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.4!scala-compiler.jar(src)
-[debug] :: resolution report :: resolve 44ms :: artifacts dl 4ms
+[debug] :: resolution report :: resolve 38ms :: artifacts dl 3ms
 [debug] 	report for inventory#inventory$sources;0.1.0-SNAPSHOT compile produced in /home/knoldus/IdeaProjects/knolkart-test/inventory/target/scala-2.12/resolution-cache/reports/inventory-inventory$sources-compile.xml
 [debug] 	report for inventory#inventory$sources;0.1.0-SNAPSHOT runtime produced in /home/knoldus/IdeaProjects/knolkart-test/inventory/target/scala-2.12/resolution-cache/reports/inventory-inventory$sources-runtime.xml
 [debug] 	report for inventory#inventory$sources;0.1.0-SNAPSHOT test produced in /home/knoldus/IdeaProjects/knolkart-test/inventory/target/scala-2.12/resolution-cache/reports/inventory-inventory$sources-test.xml
@@ -367,4 +367,4 @@
 [debug] 	report for inventory#inventory$sources;0.1.0-SNAPSHOT pom produced in /home/knoldus/IdeaProjects/knolkart-test/inventory/target/scala-2.12/resolution-cache/reports/inventory-inventory$sources-pom.xml
 [debug] 	report for inventory#inventory$sources;0.1.0-SNAPSHOT scala-tool produced in /home/knoldus/IdeaProjects/knolkart-test/inventory/target/scala-2.12/resolution-cache/reports/inventory-inventory$sources-scala-tool.xml
 [debug] 	report for inventory#inventory$sources;0.1.0-SNAPSHOT scoveragePlugin produced in /home/knoldus/IdeaProjects/knolkart-test/inventory/target/scala-2.12/resolution-cache/reports/inventory-inventory$sources-scoveragePlugin.xml
-[debug] 	resolve done (44ms resolve - 4ms download)
+[debug] 	resolve done (38ms resolve - 3ms download)

@@ -4,7 +4,7 @@
 		module="knolkart-test_2.12"
 		revision="0.1"
 		status="integration"
-		publication="20180207001145"
+		publication="20180207005028"
 	>
 		<description>
 		knolkart-test
@@ -36,6 +36,7 @@
 		<dependency org="inventory" name="inventory_2.12" rev="0.1.0-SNAPSHOT" conf="compile->default(compile)"/>
 		<dependency org="model" name="model_2.12" rev="0.1.0-SNAPSHOT" conf="compile->default(compile)"/>
 		<dependency org="checkout" name="checkout_2.12" rev="0.1.0-SNAPSHOT" conf="compile->default(compile)"/>
+		<dependency org="account" name="account_2.12" rev="0.1.0-SNAPSHOT" conf="compile->default(compile)"/>
 		<dependency org="org.scoverage" name="scalac-scoverage-runtime_2.12" rev="1.3.1" conf="compile->default(compile)"/>
 		<dependency org="org.scoverage" name="scalac-scoverage-plugin_2.12" rev="1.3.1" conf="scoveragePlugin->default(compile)"/>
 	</dependencies>
