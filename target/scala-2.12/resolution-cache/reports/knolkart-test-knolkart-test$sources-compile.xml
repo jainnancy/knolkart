@@ -7,10 +7,18 @@
 		revision="0.1"
 		conf="compile"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool, scoveragePlugin"
-		date="20180207001149"/>
+		date="20180207003916"/>
 	<dependencies>
+		<module organisation="account" name="account_2.12">
+			<revision name="0.1.0-SNAPSHOT" status="integration" pubdate="20180207003909" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="5">
+				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
+				<caller organisation="knolkart-test" name="knolkart-test$sources" conf="compile" rev="0.1.0-SNAPSHOT" rev-constraint-default="0.1.0-SNAPSHOT" rev-constraint-dynamic="0.1.0-SNAPSHOT" callerrev="0.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
 		<module organisation="checkout" name="checkout_2.12">
-			<revision name="0.1.0-SNAPSHOT" status="integration" pubdate="20180207001143" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="3">
+			<revision name="0.1.0-SNAPSHOT" status="integration" pubdate="20180207003909" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="3">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="knolkart-test" name="knolkart-test$sources" conf="compile" rev="0.1.0-SNAPSHOT" rev-constraint-default="0.1.0-SNAPSHOT" rev-constraint-dynamic="0.1.0-SNAPSHOT" callerrev="0.1"/>
 				<artifacts>
@@ -18,7 +26,7 @@
 			</revision>
 		</module>
 		<module organisation="inventory" name="inventory_2.12">
-			<revision name="0.1.0-SNAPSHOT" status="integration" pubdate="20180207001139" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="4">
+			<revision name="0.1.0-SNAPSHOT" status="integration" pubdate="20180207003907" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="4">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="knolkart-test" name="knolkart-test$sources" conf="compile" rev="0.1.0-SNAPSHOT" rev-constraint-default="0.1.0-SNAPSHOT" rev-constraint-dynamic="0.1.0-SNAPSHOT" callerrev="0.1"/>
 				<artifacts>
@@ -26,7 +34,7 @@
 			</revision>
 		</module>
 		<module organisation="model" name="model_2.12">
-			<revision name="0.1.0-SNAPSHOT" status="integration" pubdate="20180207001137" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="2">
+			<revision name="0.1.0-SNAPSHOT" status="integration" pubdate="20180207003904" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="2">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="knolkart-test" name="knolkart-test$sources" conf="compile" rev="0.1.0-SNAPSHOT" rev-constraint-default="0.1.0-SNAPSHOT" rev-constraint-dynamic="0.1.0-SNAPSHOT" callerrev="0.1"/>
 				<artifacts>
@@ -34,7 +42,7 @@
 			</revision>
 		</module>
 		<module organisation="util" name="util_2.12">
-			<revision name="0.1.0-SNAPSHOT" status="integration" pubdate="20180207001137" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="5">
+			<revision name="0.1.0-SNAPSHOT" status="integration" pubdate="20180207003902" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="6">
 				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
 				<caller organisation="knolkart-test" name="knolkart-test$sources" conf="compile" rev="0.1.0-SNAPSHOT" rev-constraint-default="0.1.0-SNAPSHOT" rev-constraint-dynamic="0.1.0-SNAPSHOT" callerrev="0.1"/>
 				<artifacts>

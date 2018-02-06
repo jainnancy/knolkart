@@ -4,7 +4,7 @@
 		module="knolkart-test$sources"
 		revision="0.1"
 		status="integration"
-		publication="20180207001149"
+		publication="20180207003916"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
@@ -45,6 +45,10 @@
 		</dependency>
 		<dependency org="inventory" name="inventory_2.12" rev="0.1.0-SNAPSHOT" transitive="false" conf="compile->compile,default(compile);runtime->compile,default(compile);test->compile,default(compile);compile-internal->compile,default(compile);runtime-internal->compile,default(compile);test-internal->compile,default(compile)">
 			<artifact name="inventory_2.12" type="src" ext="jar" conf="*" e:classifier="sources"/>
+			<include name="*" type="*" ext="*" conf="" matcher="exact"/>
+		</dependency>
+		<dependency org="account" name="account_2.12" rev="0.1.0-SNAPSHOT" transitive="false" conf="compile->compile,default(compile);runtime->compile,default(compile);test->compile,default(compile);compile-internal->compile,default(compile);runtime-internal->compile,default(compile);test-internal->compile,default(compile)">
+			<artifact name="account_2.12" type="src" ext="jar" conf="*" e:classifier="sources"/>
 			<include name="*" type="*" ext="*" conf="" matcher="exact"/>
 		</dependency>
 		<dependency org="util" name="util_2.12" rev="0.1.0-SNAPSHOT" transitive="false" conf="compile->compile,default(compile);runtime->compile,default(compile);test->compile,default(compile);compile-internal->compile,default(compile);runtime-internal->compile,default(compile);test-internal->compile,default(compile)">
